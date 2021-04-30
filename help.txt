@@ -1,0 +1,5 @@
+--> input your choice to choose what you want to do
+--> if you have second camera,type 1 & it will probably work
+--> if you choose stream from url always include 'http:// or https://',or it will not stream
+--> if your stream URL has security authentication,type URL like this 'http/s://user:password@ip:port/'
+--> click on stream window & type 9 to close stream window
