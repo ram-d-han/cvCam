@@ -3,7 +3,7 @@ import os
 
 def start():
 	path = os.path.dirname(os.path.abspath(__file__))
-	f = open(path+'/text.txt', 'r')
+	f = open(path+'/resource/text.txt', 'r')
 	file = f.read()
 	print(file+'\n')
 	f.close()
@@ -34,7 +34,7 @@ def choose(cam):
 
 	if cam == 8:
 		path = os.path.dirname(os.path.abspath(__file__))
-		f = open(path+'/help.txt', 'r')
+		f = open(path+'/resource/help.txt', 'r')
 		file = f.read()
 		print(file+'\n')
 		f.close()
